@@ -1,0 +1,25 @@
+I pledge my honor that I have abided by the Stevens Honor System.
+09/01/2018
+Caroline Telma
+
+1. What challenges did you encounter with this assignment, if any?
+I found this assignment challenging because I had to firstly brush up on my Python skills.
+Additionally, I had a hard time figuring out if I should be using UnitTest or PyTest as I have never used either.
+Once I had a better idea of what I was doing everything generally went pretty smoothly.
+
+2. What did you think about the requirements specification for this assignment?
+I thought the requirements specification of this assignment were kind of vague. For example, I was not sure what data type (int, string?) my inputs should be.
+Also I had to create a section called "Not a triangle" to catch inputs that definitely do not create a triangle.
+All in all, in the future I think it would be helpful if the instructions were a little more clear and not left up to the student's interpretation.
+
+3. What challenges did you encounter with the tools?
+Since I haven't worked much with UnitTest I had to understand how to use the tool and how to get it to work with my existing code.
+Additionally there were many UnitTest Assert Methods, however, I only really used 2 as that made the most sense to me.
+
+4. Describe the criteria you used to determine that you had sufficient test cases, i.e. how did you know you were done?
+My strategy for testing this program was making sure each if/else statements were working properly as that was most of the logic in the code.
+I looked up common triangle combinations online, and I ran them to ensure the expected answer was returned.
+For isosceles and obtuse triangles, I checked them with and without right triangle properties.
+Since equilateral triangles cannot be right, I did not test the two classifications together.
+Since going in I knew there was a bug in the isosceles if/else statement, the testIsosceles function failed.
+The rest of the tests passed as I predicted.
